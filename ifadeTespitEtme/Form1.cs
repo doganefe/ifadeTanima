@@ -51,7 +51,7 @@ namespace ifadeTespitEtme
                     var shape = sp.Detect(img, face);
                     //Console.WriteLine("ilk yuz icin landmarklar"+ shape.ToString());
                     // Loop through detected landmarks
-                    string path = @"c:\landmarks.txt";
+                    string path = @"d:\landmarks.txt";
                     data dataObjem = new data();
                     dataObjem.Values = new double[136];
                     dataObjem.Targets = new double[7];
