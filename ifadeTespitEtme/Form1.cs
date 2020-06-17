@@ -86,7 +86,7 @@ namespace ifadeTespitEtme
         DataTable dt = new DataTable("Inputs");
         DataTable dt2 = new DataTable("Outputs");
 
-        private void btnCalistir_Click(object sender, EventArgs e)
+        private void btnCalistir_Click(object sender, EventArgs e)//calistir butonu
         {
             panel4.Controls.Clear();
             btnFotoYukle.Enabled = false;
